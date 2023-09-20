@@ -10,7 +10,35 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form method="POST">
+	<label for="name">Enter your name:</label>
+	<input type="text" placeholder="Name" id="name" required>
+	<label for="tel">Contact no.</label>
+	<input type="tel" placeholder="xxx-xxx-xxxx" id="tel">
+	<!--<label for="email">Enter Email id:</label>
+	<input type="Email" placeholder="email" id="email" required>
+	<label for="gender_m">Male</label>
+	<input type="radio"  name ="gender" id="gender_m" required>
+	<label for="gender_f">Female</label>
+	<input type="radio" name="gender" id="gender_f" required>-->
+	<label for="address">Address</label>
+	<input type="text" placeholder="Address" id="address" required>
+	<label for="checkbox">Have you ever lived with a Dog before? </label>
+	<input type="checkbox" id="checkbox" required>
+	
+	<label for="multiselect">Please select your preferred breeds</label>
+	<select name="select"  id="multiselect" multiple>
+		
+		<option value="Bulldogs">Bulldogs</option>
+		<option value="German Shepherd">German Shepherd</option>
+		<option value="Dachshunds">Dachshunds</option>
+		<option value="Poodles">Poodles</option>
+	</select>
+	<button type="submit">Submit</button>
 
+
+</form>
+	
 </body>
 
 </html>
